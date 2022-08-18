@@ -11,7 +11,7 @@ func main() {
 	fmt.Printf("Tipo: %T\nValor: %q\n", y, y)
 	fmt.Printf("Tipo: %T\nValor: %v\n", z, z)
 	fmt.Println("\nPergunta: O compilador atribuiu valores para essas variáveis. Como esses valores se chamam?")
-	fmt.Println("Resposta: Valor 0")
+	fmt.Println("Resposta: Zero Value")
 }
 
 // - Use var para declarar três variáveis. Elas devem ter package-level scope. Não atribua valores a estas variáveis.
