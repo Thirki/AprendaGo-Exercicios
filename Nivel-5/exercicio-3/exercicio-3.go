@@ -23,6 +23,7 @@ func main() {
 	fmt.Printf("Type: %T\tValue: %v\n", caminhonete, caminhonete)
 	fmt.Printf("Type: %T\tValue: %v\n", carroDeSenior, carroDeSenior)
 	fmt.Println(caminhonete.Cor)
+
 	fmt.Println(carroDeSenior.Cor)
 }
 
