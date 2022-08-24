@@ -21,7 +21,9 @@ func main() {
 	caminhonete := ICaminhonete{IVeiculo{4, "Preta"}, true}
 	carroDeSenior := ISedan{IVeiculo{2, "Vermelho"}, true}
 	fmt.Printf("Type: %T\tValue: %v\n", caminhonete, caminhonete)
-	fmt.Printf("Type: %T\tValue: %v", carroDeSenior, carroDeSenior)
+	fmt.Printf("Type: %T\tValue: %v\n", carroDeSenior, carroDeSenior)
+	fmt.Println(caminhonete.Cor)
+	fmt.Println(carroDeSenior.Cor)
 }
 
 // @TODO:
