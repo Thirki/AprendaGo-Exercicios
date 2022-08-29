@@ -8,3 +8,6 @@ func main() {
 		fmt.Printf("Prova: %v", prova)
 	}("EU SOU A PROVA")
 }
+
+// @TODO:
+// - Crie e utilize uma função anônima.
